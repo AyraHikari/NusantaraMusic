@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "123456789000",
-    "firebase_url": "https://mockproject-1234.firebaseio.com",
-    "project_id": "mockproject-1234",
-    "storage_bucket": "mockproject-1234.appspot.com"
+    "project_number": "674812686020",
+    "firebase_url": "https://nusantara-music.firebaseio.com",
+    "project_id": "nusantara-music",
+    "storage_bucket": "nusantara-music.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123456789000:android:f1bf012572b04063",
+        "mobilesdk_app_id": "1:674812686020:android:144fbe57cc42fcd1",
         "android_client_info": {
           "package_name": "me.ayra.nusantara.music"
         }
       },
       "oauth_client": [
         {
-          "client_id": "123456789000-hjugbg6ud799v4c49dim8ce2usclthar.apps.googleusercontent.com",
+          "client_id": "674812686020-e8ldg66k6rvghc154lsujud4o5rl72gi.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzbSzCn1N6LWIe6wthYyrgUUSAlUsdqMb-wvTo"
+          "current_key": "AIzaSyBLW9FobsTMQjWEhN9oXLbgv3EDgzKjxIc"
         }
       ],
       "services": {
