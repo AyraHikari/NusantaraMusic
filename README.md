@@ -1,19 +1,18 @@
-[![Build Status](https://travis-ci.org/naman14/TimberX.svg?branch=master)](https://travis-ci.org/naman14/TimberX)
+[![Build Status](https://travis-ci.org/AyraHikari/NusantaraMusic.svg?branch=master)](https://travis-ci.org/AyraHikari/NusantaraMusic)
 
-# TimberX
+# Nusantara Music
 Fully featured Material theme music player that works all form factors and uses latest tools
+This app is based on [Timber X](https://github.com/naman14/TimberX)
 
-<a href='https://play.google.com/store/apps/details?id=me.ayra.nusantara.music&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height=90px/></a>
 
-Alternately, Download from Github [releases](https://github.com/naman14/TimberX/releases)
 * * *
-TimberX is built with latest development tools and design patterns.
+Nusantara Music is built with latest development tools and design patterns.
 - Written in Kotlin
 - Android Architecture Components (Viewmodels, Livedata, Room)
 - Databinding
 - Dependency injection with KOIN
 
-TimberX works across all devices including
+Nusantara Music works across all devices including
 - Phones
 - Android Wear
 - Android Auto
@@ -65,7 +64,7 @@ Browsing music library from wear device and common playback controls are support
 
 ## Google Assistant
 
-TimberX works with Google Assistant. Common voice commands that work with assistant are 
+Nusantara Music works with Google Assistant. Common voice commands that work with assistant are 
 
  - play music on timber
  - play 'song name' on timber
