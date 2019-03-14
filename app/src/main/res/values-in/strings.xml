@@ -1,0 +1,69 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="songs">Lagu</string>
+    <string name="albums">Album</string>
+    <string name="artists">Artis</string>
+    <string name="genres">Genre</string>
+    <string name="folders">Folder</string>
+    <string name="playlists">Daftar putar</string>
+
+    <string name="play">Play</string>
+    <string name="add_to_playlist">Tambahkan ke Daftar Putar</string>
+    <string name="go_to_album">Buka Album</string>
+    <string name="go_to_artist">Buka Artis</string>
+    <string name="play_next">Mainkan selanjutnya</string>
+    <string name="delete_from_device">Hapus dari Perangkat</string>
+
+    <string name="sort_order_entry_az">A-Z</string>
+    <string name="sort_order_entry_za">Z-A</string>
+    <string name="sort_order_entry_year">Tahun</string>
+    <string name="sort_order_entry_duration">Lamanya</string>
+    <string name="sort_order_entry_number_of_songs">Jumlah lagu</string>
+
+    <string name="number_song_add_playlist"><xliff:g example="1" id="number">%d</xliff:g> lagu ditambahkan ke daftar putar.</string>
+    <string name="number_songs_add_playlist"><xliff:g example="1" id="number">%d</xliff:g> lagu ditambahkan ke daftar putar.</string>
+
+    <string name="create">Buat</string>
+    <string name="delete">Hapus</string>
+
+    <string name="create_new_playlist">Buat Daftar Putar Baru</string>
+    <string name="delete_song_prompt">Hapus Lagu?</string>
+    <string name="enter_playlist_name">Masukkan nama daftar putar…</string>
+    <string name="playlist_created">Daftar putar dibuat!</string>
+    <string name="unable_create_playlist">Tidak dapat membuat daftar putar!</string>
+
+    <string name="media_playback">Pemutaran Media</string>
+    <string name="media_playback_controls">Kontrol pemutaran media</string>
+
+    <string name="all_songs">Semua lagu</string>
+    <string name="casting_to_x">Casting ke %1$s</string>
+    <string name="nothing_playing">Tidak ada yang diputar</string>
+    <string name="now_playing_format">%1$s | %2$s</string>
+
+    <string name="queue_ended">Antrian berakhir</string>
+    <string name="no_song_next">Tidak ada lagu berikutnya</string>
+
+    <string name="play_song_error">Tidak dapat memutar lagu</string>
+    <string name="new_playlist">Daftar Putar Baru</string>
+    <string name="lyrics">Lirik</string>
+    <string name="up_next">Berikutnya</string>
+    <string name="no_results">Tidak ada hasil</string>
+    <string name="search_hint">Cari lagu, artis, album…</string>
+
+    <string name="light">Terang</string>
+    <string name="dark">Gelap</string>
+    <string name="black">Hitam</string>
+
+    <string name="settings">Pengaturan</string>
+    <string name="choose_start_page">Pilih halaman awal yang akan ditampilkan saat peluncuran.</string>
+    <string name="start_page">Halaman awal</string>
+    <string name="choose_theme">Pilih tema yang akan digunakan di seluruh aplikasi</string>
+    <string name="theme">Tema</string>
+
+    <string name="load_artist_image">Last.fm gambar artis</string>
+    <string name="load_album_image">Last.fm gambar album</string>
+    <string name="load_artist_image_summary">Muat gambar artis dari Last.fm</string>
+    <string name="load_album_image_summary">Muat gambar album dari Last.fm (hanya jika tidak tersedia secara lokal)</string>
+
+
+</resources>
