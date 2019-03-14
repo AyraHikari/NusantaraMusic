@@ -5,14 +5,14 @@
     >
 
   <data>
-    <import type="com.naman14.timberx.network.models.ArtworkSize"/>
+    <import type="me.ayra.nusantara.music.network.models.ArtworkSize"/>
     <variable
         name="artist"
-        type="com.naman14.timberx.models.Artist"
+        type="me.ayra.nusantara.music.models.Artist"
         />
     <variable
         name="artistInfo"
-        type="com.naman14.timberx.network.models.ArtistInfo"
+        type="me.ayra.nusantara.music.network.models.ArtistInfo"
         />
   </data>
 
@@ -33,7 +33,7 @@
           android:layout_height="270dp"
           >
 
-        <com.naman14.timberx.ui.widgets.SquareImageView
+        <me.ayra.nusantara.music.ui.widgets.SquareImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/default_album_art_large"
