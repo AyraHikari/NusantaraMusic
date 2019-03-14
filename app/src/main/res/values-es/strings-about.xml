@@ -4,7 +4,8 @@
     <string name="about_dialog_body"><![CDATA[
     <b>Nusantara Music</b> es un reproductor de música con diseño material, con todas las funcionalidades y
     open source, que funciona en todos los dispositivos incluyendo teléfonos, wear, Auto y dispositivos de streaming.<br/><br/>
-    Diseñado y desarrollado por <b>Naman Dwivedi</b>. Visita <a href="https://github.com/AyraHikari/NusantaraMusic">GitHub</a>!
+    Diseñado y desarrollado por <b>Naman Dwivedi</b>.<br/><br/>
+    Forked and Modified by <a href="t.me/AyraHikari">Ayra Hikari</a>. Check out this <a href="https://github.com/AyraHikari/NusantaraMusic">GitHub</a>!
    ]]></string>
     <string name="about_dialog_dismiss">Descartar</string>
 </resources>

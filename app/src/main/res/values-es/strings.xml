@@ -41,6 +41,7 @@
     <string name="dark">Oscuro</string>
     <string name="black">Negro</string>
     <string name="settings">Ajustes</string>
+    <string name="about">Acerca de</string>
     <string name="choose_start_page">Escoge la página de inicio para mostrar al iniciar</string>
     <string name="start_page">Página de inicio</string>
     <string name="choose_theme">Escoge el tema para usar en la app</string>

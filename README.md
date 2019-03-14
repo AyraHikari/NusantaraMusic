@@ -1,7 +1,8 @@
 [![Build Status](https://travis-ci.org/AyraHikari/NusantaraMusic.svg?branch=master)](https://travis-ci.org/AyraHikari/NusantaraMusic)
 
 # Nusantara Music
-Fully featured Material theme music player that works all form factors and uses latest tools
+Fully featured Material theme music player that works all form factors and uses latest tools.
+
 This app is based on [Timber X](https://github.com/naman14/TimberX)
 
 

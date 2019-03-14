@@ -55,6 +55,7 @@
     <string name="black">Preto</string>
 
     <string name="settings">Configurações</string>
+    <string name="about">Sobre</string>
     <string name="choose_start_page">Escolha a página inicial a ser exibida no lançamento.</string>
     <string name="start_page">Página inicial</string>
     <string name="choose_theme">Selecione o tema a ser usado em todo o aplicativo</string>

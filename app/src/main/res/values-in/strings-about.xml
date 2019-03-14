@@ -5,8 +5,9 @@
   <string name="about_dialog_body"><![CDATA[
     <b>Nusantara Musik</b> adalah fitur lengkap, sumber terbuka, pemutar musik bertema Material yang bekerja di semua
     faktor bentuk termasuk ponsel, Perangkat Wear, Auto, Assistant dan Cast.<br/><br/>
-    Dirancang dan dikembangkan oleh <b>Naman Dwivedi</b>. Lihat <a href="https://github.com/AyraHikari/NusantaraMusic">GitHub</a> ini!
+    Dirancang dan dikembangkan oleh <b>Naman Dwivedi</b>.<br/><br/>
+    Di buat ulang oleh <a href="t.me/AyraHikari">Ayra Hikari</a>. Lihat <a href="https://github.com/AyraHikari/NusantaraMusic">GitHub</a> ini!
    ]]></string>
-  <string name="about_dialog_dismiss">Dismiss</string>
+  <string name="about_dialog_dismiss">Oke</string>
 
 </resources>
