@@ -40,6 +40,7 @@ import me.ayra.nusantara.music.models.Song
 import me.ayra.nusantara.music.ui.adapters.SongsAdapter
 import me.ayra.nusantara.music.ui.fragments.base.MediaItemFragment
 import me.ayra.nusantara.music.ui.listeners.SortMenuListener
+import com.google.android.material.snackbar.Snackbarnaman14/timberx/ui/fragments/songs/SongsFragment.kt
 import kotlinx.android.synthetic.main.layout_recyclerview.recyclerView
 import org.koin.android.ext.android.inject
 
@@ -93,7 +94,13 @@ class SongsFragment : MediaItemFragment() {
         override fun shuffleAll() {
             songsAdapter.songs.shuffled().apply {
                 val extras = getExtraBundle(toSongIds(), getString(R.string.all_songs))
-                mainViewModel.mediaItemClicked(this[0], extras)
+
+                if (this.isEmpty()) {
+                    Snackbar.make(recyclerView, R.string.shuffle_no_songs_error, Snackbar.LENGTH_SHORT)
+                            .show()
+                } else {
+                    mainViewModel.mediaItemClicked(this[0], extras)
+                }
             }
         }
 
