@@ -12,7 +12,3 @@ android:
 
 licenses:
   - '.+'
-
-deploy:
-  provider: script
-  script: ./upload
