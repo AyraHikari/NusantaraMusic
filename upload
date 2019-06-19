@@ -1,0 +1,2 @@
+# Uplaod apk
+curl -s -F chat_id=$MyGroup -F document=@"$(echo app/build/outputs/apk/debug/*.apk)" -F caption="Nusantara Music by [Ayra Hikari](tg://user?id=388576209)" -F parse_mode="markdown" https://api.telegram.org/bot$Token/sendDocument > /dev/null

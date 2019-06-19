@@ -13,5 +13,6 @@ android:
 licenses:
   - '.+'
 
-notifications:
-  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
+deploy:
+  provider: script
+  script: ./upload
