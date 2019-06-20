@@ -12,3 +12,5 @@
 .externalNativeBuild
 app/google-services.json
 app/src/main/res/values/secret.xml
+buildapk
+cache

@@ -17,36 +17,86 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <ListPreference
-        android:defaultValue="light"
-        android:entries="@array/pref_theme_entries"
-        android:entryValues="@array/pref_theme_values"
-        android:key="theme_preference"
-        android:summary="@string/choose_theme"
-        android:title="@string/theme"
-        app:iconSpaceReserved="false" />
+    <PreferenceCategory n1:title="@string/settings"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <ListPreference
+            android:defaultValue="light"
+            android:entries="@array/pref_theme_entries"
+            android:entryValues="@array/pref_theme_values"
+            android:key="theme_preference"
+            android:summary="@string/choose_theme"
+            android:title="@string/theme"
+            android:icon="@drawable/ic_theme" />
+        <ListPreference
+            android:defaultValue="songs"
+            android:entries="@array/pref_startpage_entries"
+            android:entryValues="@array/pref_startpage_values"
+            android:key="start_page_preference"
+            android:summary="@string/choose_start_page"
+            android:title="@string/start_page"
+            android:icon="@drawable/ic_recent" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="lastfm_artist_image"
+            android:summary="@string/load_artist_image_summary"
+            android:title="@string/load_artist_image" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="lastfm_album_image"
+            android:summary="@string/load_album_image_summary"
+            android:title="@string/load_album_image" />
+    </PreferenceCategory>
 
-    <ListPreference
-        android:defaultValue="songs"
-        android:entries="@array/pref_startpage_entries"
-        android:entryValues="@array/pref_startpage_values"
-        android:key="start_page_preference"
-        android:summary="@string/choose_start_page"
-        android:title="@string/start_page"
-        app:iconSpaceReserved="false" />
-
-    <CheckBoxPreference
-        android:defaultValue="true"
-        android:key="lastfm_artist_image"
-        android:summary="@string/load_artist_image_summary"
-        android:title="@string/load_artist_image"
-        app:iconSpaceReserved="false" />
-
-    <CheckBoxPreference
-        android:defaultValue="true"
-        android:key="lastfm_album_image"
-        android:summary="@string/load_album_image_summary"
-        android:title="@string/load_album_image"
-        app:iconSpaceReserved="false" />
+    <PreferenceCategory n1:title="@string/about"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <Preference
+            android:title="Tedy Ramdani (Ayra Hikari)"
+            android:summary="Founder of Team Nusantara Devs. I'm a Student of Computer Science From Indonesia"
+            android:icon="@drawable/ic_developer">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://telegram.me/AyraHikari"/>
+        </Preference>
+        <Preference
+            android:title="Ayra's Project"
+            android:summary="Follow my Telegram Channel to get update, also i will share some interesting app."
+            android:icon="@drawable/ic_announcements">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://telegram.me/AyraProject"/>
+        </Preference>
+        <Preference
+            android:title="Ayra's GitHub"
+            android:summary="Checkout my github, include this music source code."
+            android:icon="@drawable/ic_github">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/AyraHikari"/>
+        </Preference>
+        <Preference
+            android:title="Group Support"
+            android:summary="Report an bug or get some help in my group."
+            android:icon="@drawable/ic_telegram">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://telegram.me/TeamNusantaraDevs"/>
+        </Preference>
+        <Preference
+            android:title="Donate"
+            android:summary="Respect developer, also tell me if you're donated. I will give you something."
+            android:icon="@drawable/ic_donate">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://paypal.me/AyraHikari"/>
+        </Preference>
+        <Preference
+            android:title="My Website"
+            android:summary="Checkout all of my project in my website."
+            android:icon="@drawable/ic_website">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://ayrahikari.github.io"/>
+        </Preference>
+    </PreferenceCategory>
 
 </PreferenceScreen>
