@@ -23,7 +23,6 @@ import android.support.v4.media.session.PlaybackStateCompat.SHUFFLE_MODE_NONE
 import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuInflater
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import me.ayra.nusantara.music.R
@@ -36,7 +35,6 @@ import me.ayra.nusantara.music.models.QueueData
 import me.ayra.nusantara.music.network.models.ArtworkSize
 import me.ayra.nusantara.music.repository.SongsRepository
 import me.ayra.nusantara.music.ui.bindings.setLastFmAlbumImage
-import me.ayra.nusantara.music.ui.dialogs.AboutDialog
 import me.ayra.nusantara.music.ui.fragments.base.BaseNowPlayingFragment
 import me.ayra.nusantara.music.util.AutoClearedValue
 import kotlinx.android.synthetic.main.fragment_now_playing.btnBack
@@ -155,13 +153,6 @@ class NowPlayingFragment : BaseNowPlayingFragment() {
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.menu_main, menu)
         super.onCreateOptionsMenu(menu, inflater)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.menu_item_about -> AboutDialog.show(safeActivity)
-        }
-        return super.onOptionsItemSelected(item)
     }
 
     override fun onResume() {

@@ -45,7 +45,6 @@ import me.ayra.nusantara.music.extensions.safeActivity
 import me.ayra.nusantara.music.models.MediaID
 import me.ayra.nusantara.music.ui.activities.MainActivity
 import me.ayra.nusantara.music.ui.activities.SettingsActivity
-import me.ayra.nusantara.music.ui.dialogs.AboutDialog
 import me.ayra.nusantara.music.ui.fragments.base.MediaItemFragment
 import kotlinx.android.synthetic.main.main_fragment.appBar
 import kotlinx.android.synthetic.main.main_fragment.tabLayout
@@ -104,7 +103,6 @@ class MainFragment : Fragment() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.menu_item_about -> AboutDialog.show(safeActivity)
             R.id.menu_item_settings -> startActivity(Intent(activity, SettingsActivity::class.java))
         }
         return super.onOptionsItemSelected(item)
